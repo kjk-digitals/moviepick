@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "CosmicVibrant";
+    src: url("./fonts/CosmicVibrant-WywzY.otf") format('truetype');
+}
+body {
+    background-color: #220d3d;
+    color: #ffffff;
+    font-family: 'CosmicVibrant', sans-serif;
+}
+
+#appTitle {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-size: 80px;
+}
+
+#genreForm, #playBtn {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+ 
+}
+
+#movieInfo {
+    width:  65%;
+    margin:  32px auto;
+}
+
+#movieInfo:after {
+    content:  "";
+    display:  table;
+    clear:  both;
+}
+
+#moviePoster, #movieText {
+    width:  50%;
+    float:  left;
+}
+
+img#moviePoster {
+    width:  100%;
+    height:  auto;
+    display:  block;
+    margin:  auto;
+    border-radius: 5px;
+}
+
+#movieText {
+    color: #FEFBEA;
+    line-height: 1.25;
+}
+
+#movieTitle, #movieOverview {
+    padding:  32px;
+}
+
+#playBtn {
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: 1px orange;
+    background-color: #ffffff;
+    color: #220d3d;
+    cursor:  pointer;
+    box-shadow: #ffffff;
+}
+
+label {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 25px;
+    
+}
+select {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(35, 35, 35, 0.5);
+    color: white;
+    font-family: 'CosmicVibrant', sans-serif;
+
+}
+
+#likeOrDislikeBtns {
+    text-align: center;
+    margin: 0px auto;  
+}
+
+#likeBtn, #dislikeBtn {
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius: 12px;
+    border-style: none;
+    cursor:  pointer;
+}
+
+#likeBtn {
+    background-color: #249e57;
+    color: darkgreen;
+}
+
+#dislikeBtn {
+    background-color: #c74a4a;
+    color: #910000;
+}
