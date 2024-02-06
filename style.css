@@ -44,6 +44,8 @@ img#moviePoster {
     display:  block;
     margin:  auto;
     border-radius: 5px;
+    box-shadow: 1px black;
+    
 }
 
 #movieText {
